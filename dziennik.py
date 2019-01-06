@@ -6,10 +6,10 @@ class uczen:
         self.klasa = klasa
         self.klasa_literka = klasa_literka
         self.przedmioty = dict()
-print("_____________")
+
     def dodaj_przedmiot(self, nazwa_przedmiotu):
         self.przedmioty[nazwa_przedmiotu] = list()
-
+print("------------------")
     def wstaw_ocene(self, nazwa_przedmiotu, ocena):
         # dla danego ucznia, wstaw do listy w slowniku ocene
         self.przedmioty[nazwa_przedmiotu].append(ocena)
