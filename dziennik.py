@@ -6,7 +6,7 @@ class uczen:
         self.klasa = klasa
         self.klasa_literka = klasa_literka
         self.przedmioty = dict()
-
+print("_____________")
     def dodaj_przedmiot(self, nazwa_przedmiotu):
         self.przedmioty[nazwa_przedmiotu] = list()
 
